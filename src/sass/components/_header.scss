@@ -1,97 +1,14 @@
 .header {
-    background-color: #fff;
+    .header__img {
+        margin-top: 8px;       
+        float: left;
 
-    .header__top {
-        padding: 3px 0;
-        background-color:#def5de;
+        @media screen and (max-width:991px) {
+            margin-top: 13px;
+        }
 
-        .header__top__share {
-            width: 20px;
-            height: 20px;
-            display: inline-flex;
-            color: #666;
-            border: 1px solid #666 !important;
-            border-radius: 50%;
-            align-items: center;
-            justify-content: center;
-            font-size: 12px;
-            text-decoration: none;
-
-            &:hover {
-                background-color: #008408;
-                color: #fff;
-                border-color: #fff;
-            }
+        @media screen and (max-width:767px) {
+            margin-top: 2px;
         }
     }
-
-    .sub-header {
-        background-image: url(/img/header.png);
-        height: 110px;
-        background-size: cover;
-
-        @media (max-width:767px) {
-            & {
-                height: 70px;
-            }
-        }
-    }
-
-    .header__logo {
-        padding: 3px 0;
-        background-image: url(/img/p1-header.png), url(/img/p2-header.png) !important;
-        background-repeat: no-repeat;
-        background-position: 0 100%, 100% 100%;
-        background-size: contain;
-    }
-
-    .header__logo__title {
-        color: #333;
-        font-weight: 600;
-        text-align: left;
-        font-size: 20px;
-    }
-
-    .header__logo__desc {
-        color: #333;
-        font-weight: 500;
-        text-align: left;
-        font-size: 18px;
-    }
-
-    .header__logo__phone {
-        text-align: left;
-        color: #008408 !important;
-        font-size: 20px;
-        font-weight: bold
-    }
-
-    @media (max-width:767px) {
-        & .col-md-6.col-sm-6 {
-            text-align: center !important;
-        }
-    }
-}
-
-.bread {
-    background-color: #eee;
-    font-weight: 600;
-
-    .bread__item {
-        display: inline-flex;
-        align-items: center;
-    }
-
-    .breadcrumb {
-        margin-bottom: 0px;
-        background-color: #eee;
-
-        a {
-            color: #008408;
-        }
-    }
-}
-
-.navbar-inverse {
-    border-color: #ccc;
 }
