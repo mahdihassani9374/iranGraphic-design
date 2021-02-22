@@ -1,0 +1,27 @@
+.footer {
+    padding: 20px 0;
+    background-color: #086ad8;
+    margin-top: 30px;
+
+    .footer__info {
+        margin-top: 20px;
+        color: #fff;
+
+        .footer__info__title {
+            color: #fff;
+            font-weight: 600;
+            font-size: 18px;
+            padding-bottom: 10px;
+            border-bottom: 1px dotted #ccc;
+            text-align: right;
+        }
+
+        .footer__info__link,  p {
+            color: #fff;
+            display: block;
+            text-align: right;
+            margin: 10px 0;
+            font-size: 16px;
+        }
+    }
+}
